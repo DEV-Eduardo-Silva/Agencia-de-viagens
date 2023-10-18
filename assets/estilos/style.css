@@ -1,0 +1,105 @@
+
+
+/*estilos gerais*/
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.limite{
+    width: 100%;
+    max-width: 1110px;
+    padding: 10px 4%;
+}
+
+
+/*Cabeçalho*/
+.logo{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: -18px ;
+    
+}
+.logo h1{
+   
+    color: blueviolet;
+    font-size: 25px;
+    font-weight: 100;
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+    padding: 0px 20px;
+}
+ 
+
+/*topo*/
+
+.background{
+    background-image: url('../imagens/bahia.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    
+}
+.topo{
+    width: 100%;
+    height: 80vh;
+}
+ /*Subtitulo do formulario*/
+ .subtitulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 4vh;
+    gap: 20px;
+    margin: 0 auto;
+    background-color: blueviolet;
+ }
+.subtitulo img{
+    width: 25px; 
+}
+
+.subtitulo h2{
+    font-size: 17px;
+    color: white;
+}
+
+/*Formulario*/
+.formulario{
+    width: 90%;
+    margin-top: -10px;
+    height: 90vh;
+    margin: 0 auto;
+    background-color: aliceblue;
+ }
+
+ .conteudo-formulario{
+    background-color: aqua;
+    width: 95%;
+    margin: 0 auto;
+    padding: 10px 0px;
+    
+ }
+.conteudo-formulario h2{
+    font-size: 24px;
+    font-weight: 100;
+    color: black;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+input{
+    width: 200px;
+}
