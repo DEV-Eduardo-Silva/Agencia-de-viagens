@@ -44,11 +44,18 @@
                             <label>Celular</label>
                             <input type="tel" name="telefone" placeholder="(xx xxxxx-xxxx)">
                         </div>
-                        <div class="left">
+                        <div class="flex2">
                             <div>
                                 <label>Data da ida</label>
                                 <input type="date" name="data" placeholder="dd/mm/aaaa" required>
                             </div>
+                            <div>
+                                <label>Data de volta</label>
+                                <input type="date" name="data" placeholder="dd/mm/aaaa">
+                            </div>
+                            
+                        </div><!--lado esquerdo formulario-->
+                        <div class="flex2">
                             <div>
                                 <label>Origem</label>
                                 <select name="estado">
@@ -58,13 +65,7 @@
                                     <option value="MG">Minas Gerais</option> 
                                     <option value="SC">Santa Catarina</option> 
                                 </select>
-                            </div>
-                            
-                        </div><!--lado esquerdo formulario-->
-                        <div class="right">
-                            <div>
-                                <label>Data de volta</label>
-                                <input type="date" name="data" placeholder="dd/mm/aaaa">
+                                
                             </div>
                             <div>
                                 <label>Destino</label>
@@ -77,8 +78,30 @@
                                 </select>
                             </div>
                         </div><!--lado direito formulario-->
-                
-                            
+                        <div>
+                            <p>Quarto com cama infantil?</p>
+                        </div>
+                        <div class="flex3">
+                            <label for="sim" name="cama-sim">Sim</label>
+                            <input type="radio" name="cama-sim" value="sim">
+                            <label for="sim" name="cama-sim">Não</label>
+                            <input type="radio" name="cama-sim" value="sim">
+                        </div><!--Flex 3-->
+                        <div>
+                            <p>Preferências da hospedagem</p>
+                        </div>
+                         <div class="flex4">
+                            <input type="checkbox" name="piscina">
+                            <label>Piscina</label>
+                            <input type="checkbox" name="wifi">
+                            <label>Wi-Fi</label>
+                            <input type="checkbox" name="garagem">
+                            <label>Garagem</label>
+                            <input type="checkbox" name="suite">
+                            <label>Suite</label>
+
+
+                         </div> <!--flex 4-->  
         
                     </form><!--Form-->
                 </div><!--Conteudo formulario-->
