@@ -84,7 +84,6 @@ body{
  }
 
  .conteudo-formulario{
-    background-color: aqua;
     width: 95%;
     margin: 0 auto;
     padding: 10px 0px;
@@ -94,12 +93,35 @@ body{
     font-size: 24px;
     font-weight: 100;
     color: black;
+    padding: 0px 20px;
 }
-form{
+
+    
+
+input{
+    width: 100%;
+}
+form div{
     display: flex;
     flex-direction: column;
-    
+    padding: 10px 20px;
 }
-input{
-    width: 200px;
+.left{
+    float: left;
+    width: 50%;
+    margin-left: -20px;
 }
+.right{
+    float: inline-end;
+   
+   
+}
+.right input{
+    width: 100%;
+}
+
+
+
+
+
+
