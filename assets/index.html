@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agência de viagens</title>
     <link rel="stylesheet" href="estilos/style.css">
-
-
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100&family=Montserrat:wght@100&family=Roboto&family=Ysabeau+Infant:wght@100&display=swap" rel="stylesheet">
+    <!--Fim Fontes-->
 </head>
 <body>
     <header>
-        <div class="limite"></div>
+        <div class="limite">
             <div class="flex">
                 <div class="logo">
                     <img src="imagens/local-logo.png" alt="">
@@ -90,7 +93,7 @@
                         <div>
                             <p>Preferências da hospedagem</p>
                         </div>
-                         <div class="flex4">
+                        <div class="flex4">
                             <input type="checkbox" name="piscina">
                             <label>Piscina</label>
                             <input type="checkbox" name="wifi">
@@ -99,16 +102,41 @@
                             <label>Garagem</label>
                             <input type="checkbox" name="suite">
                             <label>Suite</label>
-
-
-                         </div> <!--flex 4-->  
-        
+                        </div> <!--flex 4-->
+                        <div class="botao">
+                            <button type="submit">Solicitar Orçamento</button>
+                        </div><!--Botão-->
                     </form><!--Form-->
                 </div><!--Conteudo formulario-->
                
             </div><!--formulário-->
         </div><!--background-->
     </section> <!--Seção topo-->
+    <main>
+        <div class="limite">
+            <div class="titulo-conteudo">
+                <h3>Ofertas</h3>
+                <p>Com até 50% de desconto.</p>
+            </div><!--Titulo ofertas-->
+            <div class="flex">
+                <div class="container-rj">
+                    <div class="rjimg">
+                        <img src="imagens/rio.jpg" alt="Rio de Janeiro">
+                        <small>Rio de Janeiro</small>
+                    </div><!--Imagem RJ-->
+                </div><!--Container limita card rio-->
+                <div class="container-img">
+                    <div class="quatro-img">
+                        <img src="imagens/manaus.jpg" alt="">
+                        <img src="imagens/saopaulo.jpg" alt="">
+                        <img src="imagens/niteroi.jpg" alt="">
+                        <img src="imagens/maranhao.jpg" alt="">
+                    </div><!--quatro imagens-->
+                </div><!--Container com quatro img-->
+            </div>
+            
+        </div><!--Tamanho maximo da tela-->
+    </main><!--Conteudo principal-->
     
     
 </body>
