@@ -15,6 +15,7 @@ body{
 .limite{
     width: 90%;
     max-width: 1110px;
+    margin: 0 auto;
     padding: 10px 6%;
 }
 
@@ -28,7 +29,7 @@ body{
     
 }
 .logo h1{
-   
+  
     color: blueviolet;
     font-size: 25px;
     font-weight: 100;
@@ -48,7 +49,7 @@ body{
     background-size: cover;
     margin: 0 auto;
     width: 100%;
-    height: 95vh;
+    height: 100vh;
     
 }
 .topo{
@@ -60,10 +61,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 95%;
+    width: 100%;
     height: 4vh;
     gap: 20px;
-  
+    
     background-color: blueviolet;
  }
 .subtitulo img{
@@ -80,28 +81,29 @@ body{
 
 /*Formulario*/
 .formulario{
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
    
-    height: 90vh;
-    margin: 0 auto;
-    background-color: rgba(78, 72, 72, 0.329);
+    height: 90%;
+    margin: 80px auto;
+    background-color: #ffffff;
  }
 
  .conteudo-formulario{
     width: 95%;
+    height: 100%;
     margin: 0 auto;
-    margin-bottom: -50px;
+    margin-bottom: 50px;
     
  }
 .conteudo-formulario h2{
     font-size: 24px;
     font-weight: 600;
     font-family: 'Heebo', sans-serif;
-    color: #fffcfca2;
+    color: #000000;
     padding: 0px 20px;
 }
 
@@ -110,12 +112,12 @@ label{
     font-size: 20px;
     font-weight: 100;
     font-family: 'Heebo', sans-serif;
-    color: #ffffffa2;
+    color: #0a0808b9;
     padding: 5px 0px;
 }
 input{
     width: 100%;
-    height: 28px;
+    height: 35px;;
     border: 1px solid rgba(0, 0, 0, 0.308);
     border-radius: 5px;
     font-family: 'Heebo', sans-serif;
@@ -138,16 +140,17 @@ form div{
 
 .flex2 input{
     font-family: 'Heebo', sans-serif;
-    width: 525px;
+    width: 500px;
+    height: 35px;
     margin-left: -16px;
    
 }
 .flex2 select{
-    max-width: 525px;
-    width: 525px;
+    max-width: 500px;
+    width: 500px;
     font-family: 'Heebo', sans-serif;
     margin-left: -16px;
-    height: 28px;
+    height: 35px;
     border: 1px solid rgba(0, 0, 0, 0.308);
     border-radius: 5px;
 }
@@ -155,15 +158,16 @@ form div{
     margin-left: -15px;
     font-size: 20px;
     font-weight: 100;
-    color: #ffffffa2;
+    color: #0a0808b9;
     font-family: 'Heebo', sans-serif;
     
 
 }
 div p{
     font-size: 20px;
+    margin-top: 5px;
     font-weight: 100;
-    color: #ffffffa2;
+    color: #0a0808b9;
     font-family: 'Heebo', sans-serif;
    
 }
@@ -172,32 +176,37 @@ div p{
     flex-direction: row-reverse;
     width: 120px;
     gap: 10px;
-    margin-top: -30px;
+    margin-top: -35px;
 }
 .flex3 input{
     width: 15px;
     margin-left: 18px;
+    height: 32px;
+    
     
 }
 .flex3 label{
     margin-left: -8px;
-    margin-top: 2px;
+    margin-top: 0px;
     font-size: 17px;
     font-weight: 100;
-    color: #ffffffa2;
+    color: #0a0808b9;
     font-family: 'Heebo', sans-serif;
 }
 .flex4{
     display: flex;
     flex-direction: row;
-    width: 55%;
+    width: 50%;
     margin-left: -39px;
+    margin-top: -35px;
     justify-content: space-evenly;
     
 }
 .flex4 input{
-    width: 15px;
+    width: 18px;
     margin-left: -10px;
+    
+    
     
    
    
@@ -207,7 +216,7 @@ div p{
     font-family: 'Heebo', sans-serif;
     font-size: 17px;
     font-weight: 100;
-    color: #ffffffa2;
+    color: #0a0808b9;
       
 }
 /*botao*/
@@ -249,22 +258,29 @@ main{
   font-size: 17px;
     
 }
-.rjimg{
-    width: 90%;
+
+.container-rj{
+    display: flex;
+    width: 50%;
     margin: 0 auto;
-    
+    justify-content: flex-start;
 }
 .rjimg img{
-    width: 500px;
+    width: 560px;
+    height: 410px;
+    margin-top: -10px;
    
 } 
-.rjimg small{
+.container-rj small{
     position: relative;
-    bottom: 30px;
+    bottom: 28px;
+    padding: 0px 10px;
     font-size: 20px;
+    display: flex;
+    width: 538px;
     font-weight: 200;
     color: white;
-    background-color:  rgba(10, 8, 8, 0.329);
+    background-color:  #0f0e0eb9;
 }
 .container-img{
     width: 60%;
@@ -274,14 +290,26 @@ main{
     margin-top: -20px;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
 }  
     
 
-.quatro-img img{
-    width: 230px;
+.container-img img{
+    width: 240px;
     padding: 10px;
     margin: 0 auto;
     height: 180px;
 }
     
+.container-img small{
+    position: relative;
+    bottom: 38px;
+    left: 10px;
+    display: flex;
+    width: 220px;
+    font-size: 20px;
+    padding: 0px 10px;
+    font-weight: 200;
+    color: white;
+    background-color:  #0f0e0eb9;
+}
