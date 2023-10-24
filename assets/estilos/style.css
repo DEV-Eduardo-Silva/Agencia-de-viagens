@@ -9,6 +9,8 @@ body{
 .flex{
     display: flex;
     flex-direction: row;
+    gap: 20px;
+    
     
 }
 
@@ -244,72 +246,254 @@ div p{
     box-shadow:0px 1px 5px 0px black ;
 }
 
-/*Conteudo ofertas*/
+/*CONTEUDO DE OFERTAS*/
 main{
     margin-top: -30px;
 }
+/*TITULO OFERTAS*/
 .titulo-conteudo h3{
     font-size: 24px;
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
-
+/*PARAGRAFO OFERTAS*/
 .titulo-conteudo p{
-  color: black;
+  color: #0a0808b9;
   margin-top: -10px;
   font-size: 17px;
+  font-family: 'Roboto', sans-serif;
     
 }
-
+/*CONTAINER DO RIO DE JANEIRO*/
 .container-rj{
     display: flex;
     width: 50%;
-    margin: 0 auto;
+    margin: 15px auto;
     justify-content: flex-start;
 }
+/*DEFININDO TAMANHO DA IMAGEM DO RIO DE JANEIRO*/
 .rjimg img{
     width: 560px;
     height: 410px;
     margin-top: -10px;
    
 } 
+/*ESCRITA DENTRO DA IMAGEM DO RIO DE JANEIRO*/
 .container-rj small{
     position: relative;
     bottom: 28px;
+    font-family: 'Roboto', sans-serif;
     padding: 0px 10px;
-    font-size: 20px;
+    font-size: 19px;
     display: flex;
     width: 538px;
     font-weight: 200;
     color: white;
     background-color:  #0f0e0eb9;
 }
+/*CONTAINER DAS QUATROS IMAGENS DA DIREITA*/
 .container-img{
     width: 60%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    margin-top: -20px;
+    margin-top: -10px;
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
 }  
     
-
+/*LARGURA DAS QUATRO IMAGENS DENTRO DO CONTAINER*/
 .container-img img{
     width: 240px;
     padding: 10px;
     margin: 0 auto;
     height: 180px;
 }
-    
+    /*ESCRITAS COM NOME DA CIDADE DENTRO DE CADA CARD DAS QUATROS IMAGENS*/
 .container-img small{
     position: relative;
     bottom: 38px;
+    font-family: 'Roboto', sans-serif;
     left: 10px;
     display: flex;
     width: 220px;
-    font-size: 20px;
+    font-size: 19px;
     padding: 0px 10px;
     font-weight: 200;
     color: white;
     background-color:  #0f0e0eb9;
 }
+/*TITULO EXPLORE A NATUREZA*/
+
+.titulo-conteudo2 h3{
+    font-size: 24px;
+    margin-top: -25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+/*PARAGRAFO EXPLORE A NATUREZA*/
+.titulo-conteudo2 p{
+    color: #0a0808b9;
+    margin-top: -10px;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+      
+  }
+/*CONTAINER CARD1*/
+.card1{
+    display: flex;
+    width: 55%;
+    margin: 15px auto;
+    flex-direction: column;
+    justify-content: flex-start
+}
+
+/*TAMANHO DA IMAGEM LENÇOL*/
+.img-lencol img{
+    width: 560px;
+    height: 380px;
+    margin-top: -10px; 
+}
+
+/*CONTAINER DO SEGUNDO CARD*/
+
+.card2{
+    display: flex;
+    width: 48%;
+    flex-direction: column;
+    margin: 15px auto;
+    justify-content: flex-end;
+}
+
+/*TAMANHO DA IMAGEM GOIAS*/
+
+.img-goias img{
+    width: 520px;
+    height: 380px;
+    margin-top: -10px;
+}
+
+/*ESPECIFICAÇÕES CARDS*/
+
+.card1 .esp{
+    background-color: #ffffff;
+    width: 560px;
+    box-shadow: #d3d9df 0px 1px 2px 2px;
+    height: 100px;
+
+}
+
+/*FONTES E ESPAÇAMENTIOS LETRAS DO CARD*/
+.card1 .esp h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 0px 15px;
+    font-weight: 400;
+}
+.card1 .esp p{
+    font-size: 17px;
+    padding: 0px 15px;
+    margin-top: -20px;
+}
+
+/*ESPECIFICAÇÕES CARD 2*/
+
+.card2 .esp{
+    background-color: #ffffff;
+    width: 520px;
+    box-shadow: #d3d9df 0px 1px 2px 2px;
+    height: 100px;
+
+}
+
+/*FONTES E ESPAÇAMENTIOS LETRAS DO CARD*/
+.card2 .esp h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 0px 15px;
+    font-weight: 400;
+}
+.card2 .esp p{
+    font-size: 17px;
+    padding: 0px 15px;
+    margin-top: -20px;
+}
+
+
+/*FOOTER*/
+
+/*BACKGROUND ROXO*/
+footer{
+    background-color: blueviolet;
+    width: 100%;
+   
+}
+
+/*TITULO*/
+.contato{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.contato h3{
+    font-size: 24px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+/*ICONES*/
+.contato img{
+    width: 20px;
+    padding: 0px 8px;
+}
+/*FONTES*/
+.contato  li{
+    padding: 8px 0px;
+    font-size: 17px;
+    font-family:'Roboto', sans-serif ;
+    color: #ffffff;
+    font-weight: 100;
+    list-style: none;
+}
+.contato ul{
+    margin-top: -10px;
+    margin-left: -40px;
+}
+
+/*TITULO*/
+.redes-sociais h3{
+    font-size: 24px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+/*ICONES*/
+.redes-sociais img{
+    width: 20px;
+    padding: 0px 8px;
+}
+/*FONTES*/
+.redes-sociais  li{
+    padding: 8px 0px;
+    font-size: 17px;
+    font-family:'Roboto', sans-serif ;
+    color: #ffffff;
+    font-weight: 100;
+    list-style: none;
+}
+.redes-sociais{
+    display: flex;
+    width: 23%;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.redes-sociais ul{
+    margin-top: -10px;
+    margin-left: -40px; 
+}
+
