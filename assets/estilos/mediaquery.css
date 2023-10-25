@@ -1,0 +1,23 @@
+/*RESPONSIVIDADE*/
+
+
+/*TELAS GRANDES*/
+
+@media screen and (min-width:450px) and (max-width: 884px){
+    .orcamento-cabecalho, .orcamento-area-formulario {
+        width: 100%;
+        
+    }
+    
+    .orcamento-logo {
+        width: 25px;
+        height: 22px;
+        
+    }
+    .orcamento-descricao {
+        font-size: 18px;
+        color: #fff;
+        
+        margin: 0 0 0 5px;
+    }
+}

@@ -1,499 +1,333 @@
 
-
-/*estilos gerais*/
-body{
-    margin: 0;
-    box-sizing: border-box;
+* {
     padding: 0;
-}
-.flex{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    
-    
+   margin: 0;
 }
 
-.limite{
-    width: 90%;
-    max-width: 1110px;
-    margin: 0 auto;
-    padding: 10px 6%;
-}
-
-
-/*Cabeçalho*/
-.logo{
-    display: flex;
-    width: 90%;
-    align-items: center;
-    margin-top: -18px ;
-    
-}
-.logo h1{
+body {
+    background: #80808029;
+    font-family: 'roboto', sans-serif;
   
-    color: blueviolet;
-    font-size: 25px;
-    font-weight: 100;
-}
-.logo img{
-    width: 30px;
-    height: 30px;
-    padding: 0px 20px;
-}
- 
-
-/*topo*/
-
-.background{
-    background-image: url('../imagens/bahia.jpg');
-    background-position: center;
-    background-size: cover;
-    margin: 0 auto;
-    width: 100%;
-    height: 100vh;
     
 }
-.topo{
+
+header {
     width: 100%;
-    height: 100vh;
-}
- /*Subtitulo do formulario*/
- .subtitulo{
+    height: 55px;
+    background: #fff;
     display: flex;
-    align-items: center;
     justify-content: center;
-    width: 100%;
-    height: 4vh;
-    gap: 20px;
-    
-    background-color: blueviolet;
- }
-.subtitulo img{
-    width: 25px; 
 }
 
-.subtitulo h2{
-    font-size: 17px;
-    color: white;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 600;
-    text-shadow: 0px 1px rgb(63, 53, 53);
-}
-
-/*Formulario*/
-.formulario{
+.topo {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-   
-    height: 90%;
-    margin: 80px auto;
-    background-color: #ffffff;
- }
-
- .conteudo-formulario{
-    width: 95%;
     height: 100%;
-    margin: 0 auto;
-    margin-bottom: 50px;
-    
- }
-.conteudo-formulario h2{
-    font-size: 24px;
-    font-weight: 600;
-    font-family: 'Heebo', sans-serif;
-    color: #000000;
-    padding: 0px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-    
-label{
-    font-size: 20px;
-    font-weight: 100;
-    font-family: 'Heebo', sans-serif;
-    color: #0a0808b9;
-    padding: 5px 0px;
+.topo-logo {
+    width: 32px;
+    height: 32px;
 }
-input{
+
+.topo-titulo {
+    font-size: 24px;
+    color: #5d15d1;
+    margin: 0 0 0 10px;
+}
+
+.limite-largura
+{
+    max-width: 1024px;
+    padding: 0px 4%;
+}
+
+.orcamento-fundo {
     width: 100%;
-    height: 35px;;
-    border: 1px solid rgba(0, 0, 0, 0.308);
-    border-radius: 5px;
-    font-family: 'Heebo', sans-serif;
+   
+    background-image: url("../imagens/bahia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-form div{
+
+.orcamento-area {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.orcamento-cabecalho {
+    width: 95%;
+    margin: 0 auto;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5d15d1;
+}
+
+.orcamento-logo {
+    width: 20px;
+    height: 20px;
+    transform: rotate(-45deg);
+}
+
+.orcamento-descricao {
+    font-size: 14px;
+    color: #fff;
+    
+    margin: 0 0 0 5px;
+}
+
+
+.orcamento-area-formulario {
+    width: 95%;
+    background: #fff;
+    padding: 30px 25px 20px 25px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.orcamento-subtitulo-formulario {
+    font-size: 22px;
+    margin: 0 0 24px 0px;
+}
+
+.formulario {
     display: flex;
     flex-direction: column;
-    padding: 5px 10px;
-}
-.flex2{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-    
-    margin-top: -10px;
-   
 }
 
-.flex2 input{
-    font-family: 'Heebo', sans-serif;
-    width: 500px;
-    height: 35px;
-    margin-left: -16px;
-   
+
+.formulario label {
+    font-size: 16px;
 }
-.flex2 select{
-    max-width: 500px;
-    width: 500px;
-    font-family: 'Heebo', sans-serif;
-    margin-left: -16px;
-    height: 35px;
-    border: 1px solid rgba(0, 0, 0, 0.308);
+
+.formulario input, .formulario select {
+    width: 100%;
+    height: 32px;
+    margin: 10px 0;
     border-radius: 5px;
 }
-.flex2 label{
-    margin-left: -15px;
-    font-size: 20px;
-    font-weight: 100;
-    color: #0a0808b9;
-    font-family: 'Heebo', sans-serif;
-    
+
+.formulario input {
+    padding: 0 5px;
+    box-sizing: border-box;
 
 }
-div p{
-    font-size: 20px;
-    margin-top: 5px;
-    font-weight: 100;
-    color: #0a0808b9;
-    font-family: 'Heebo', sans-serif;
-   
+
+.formulario select {
+    padding: 0 3px;
 }
-.flex3{
+
+.formulario-campo-duplo {
+    width: 100%;
     display: flex;
-    flex-direction: row-reverse;
-    width: 120px;
+    justify-content: space-between;
+}
+
+.formulario-campo-duplo div {
+    width: calc(50% - 10px);
+}
+.radio{
+    width: 40%;
+    display: flex;
+  
+    justify-content: flex-start;
+}
+#radio{
+    width: 100%;
+    display: flex;
     gap: 10px;
-    margin-top: -35px;
+    justify-content: flex-start;
 }
-.flex3 input{
-    width: 15px;
-    margin-left: 18px;
-    height: 32px;
-    
-    
-}
-.flex3 label{
-    margin-left: -8px;
-    margin-top: 0px;
-    font-size: 17px;
-    font-weight: 100;
-    color: #0a0808b9;
-    font-family: 'Heebo', sans-serif;
-}
-.flex4{
+
+.radio div {
     display: flex;
-    flex-direction: row;
-    width: 50%;
-    margin-left: -39px;
-    margin-top: -35px;
-    justify-content: space-evenly;
-    
-}
-.flex4 input{
-    width: 18px;
-    margin-left: -10px;
-    
-    
-    
-   
-   
-}
-.flex4 label{
-    margin-left: -40px;
-    font-family: 'Heebo', sans-serif;
-    font-size: 17px;
-    font-weight: 100;
-    color: #0a0808b9;
-      
-}
-/*botao*/
-
-.botao{
-    width: 190px;
-    padding-top: 15px;
-   
+    align-items: center;
+    width: 100%;
 }
 
-.botao button {
-    background-color: blueviolet;
-    width: 190px;
-    height: 35px;
-    color: #f0f8ff;
-    font-size: 17px;
-    font-family: 'Heebo', sans-serif;
+.radio input {
+    width: 15px;
+    margin-left: 5px;
+}
+
+.radio label {
+    margin: 0 0 0 8px;
+}
+
+.formulario button {
+    width: 160px;
+    height: 32px;
     border: none;
-    
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px 1px rgba(179, 165, 165, 0.897);
+    background: #5d15d1;
+    font-size: 16px;
+    color: #fff;
+    margin: 12px 0 0 0;
+    cursor: pointer;
     transition: 0.5s;
 }
-.botao button:hover{
-    background-color: rgb(80, 31, 126);
+button:hover{
+    background: #371b64;
     cursor: pointer;
-    box-shadow:0px 1px 5px 0px black ;
 }
 
-/*CONTEUDO DE OFERTAS*/
-main{
-    margin-top: -30px;
-}
-/*TITULO OFERTAS*/
-.titulo-conteudo h3{
-    font-size: 24px;
-    margin-top: 40px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-}
-/*PARAGRAFO OFERTAS*/
-.titulo-conteudo p{
-  color: #0a0808b9;
-  margin-top: -10px;
-  font-size: 17px;
-  font-family: 'Roboto', sans-serif;
-    
-}
-/*CONTAINER DO RIO DE JANEIRO*/
-.container-rj{
-    display: flex;
-    width: 50%;
-    margin: 15px auto;
-    justify-content: flex-start;
-}
-/*DEFININDO TAMANHO DA IMAGEM DO RIO DE JANEIRO*/
-.rjimg img{
-    width: 560px;
-    height: 410px;
-    margin-top: -10px;
-   
-} 
-/*ESCRITA DENTRO DA IMAGEM DO RIO DE JANEIRO*/
-.container-rj small{
-    position: relative;
-    bottom: 28px;
-    font-family: 'Roboto', sans-serif;
-    padding: 0px 10px;
-    font-size: 19px;
-    display: flex;
-    width: 538px;
-    font-weight: 200;
-    color: white;
-    background-color:  #0f0e0eb9;
-}
-/*CONTAINER DAS QUATROS IMAGENS DA DIREITA*/
-.container-img{
-    width: 60%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: -10px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-}  
-    
-/*LARGURA DAS QUATRO IMAGENS DENTRO DO CONTAINER*/
-.container-img img{
-    width: 240px;
-    padding: 10px;
-    margin: 0 auto;
-    height: 180px;
-}
-    /*ESCRITAS COM NOME DA CIDADE DENTRO DE CADA CARD DAS QUATROS IMAGENS*/
-.container-img small{
-    position: relative;
-    bottom: 38px;
-    font-family: 'Roboto', sans-serif;
-    left: 10px;
-    display: flex;
-    width: 220px;
-    font-size: 19px;
-    padding: 0px 10px;
-    font-weight: 200;
-    color: white;
-    background-color:  #0f0e0eb9;
-}
-/*TITULO EXPLORE A NATUREZA*/
+/* AREA DE OFERTAS*/
 
-.titulo-conteudo2 h3{
-    font-size: 24px;
-    margin-top: -25px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-}
-/*PARAGRAFO EXPLORE A NATUREZA*/
-.titulo-conteudo2 p{
-    color: #0a0808b9;
-    margin-top: -10px;
-    font-size: 17px;
-    font-family: 'Roboto', sans-serif;
-      
-  }
-/*CONTAINER CARD1*/
-.card1{
+.ofertas-area, .natureza-area {
+    width: 100%;
+    height: auto;
     display: flex;
-    width: 55%;
-    margin: 15px auto;
     flex-direction: column;
-    justify-content: flex-start
+    margin: 32px auto 0 auto;
 }
 
-/*TAMANHO DA IMAGEM LENÇOL*/
-.img-lencol img{
-    width: 560px;
-    height: 380px;
-    margin-top: -10px; 
-}
-
-/*CONTAINER DO SEGUNDO CARD*/
-
-.card2{
-    display: flex;
-    width: 48%;
-    flex-direction: column;
-    margin: 15px auto;
-    justify-content: flex-end;
-}
-
-/*TAMANHO DA IMAGEM GOIAS*/
-
-.img-goias img{
-    width: 520px;
-    height: 380px;
-    margin-top: -10px;
-}
-
-/*ESPECIFICAÇÕES CARDS*/
-
-.card1 .esp{
-    background-color: #ffffff;
-    width: 560px;
-    box-shadow: #d3d9df 0px 1px 2px 2px;
-    height: 100px;
-
-}
-
-/*FONTES E ESPAÇAMENTIOS LETRAS DO CARD*/
-.card1 .esp h4{
-    font-family: 'Roboto', sans-serif;
+.ofertas-titulo, .natureza-titulo {
     font-size: 20px;
-    margin-top: 20px;
-    padding: 0px 15px;
-    font-weight: 400;
-}
-.card1 .esp p{
-    font-size: 17px;
-    padding: 0px 15px;
-    margin-top: -20px;
+    margin: 0 0 10px 0;
 }
 
-/*ESPECIFICAÇÕES CARD 2*/
-
-.card2 .esp{
-    background-color: #ffffff;
-    width: 520px;
-    box-shadow: #d3d9df 0px 1px 2px 2px;
-    height: 100px;
-
-}
-
-/*FONTES E ESPAÇAMENTIOS LETRAS DO CARD*/
-.card2 .esp h4{
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    margin-top: 20px;
-    padding: 0px 15px;
-    font-weight: 400;
-}
-.card2 .esp p{
-    font-size: 17px;
-    padding: 0px 15px;
-    margin-top: -20px;
+.ofertas-descricao, .natureza-descricao {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 0 15px 0;
 }
 
 
-/*FOOTER*/
+.ofertas-descricao span {
+    font-weight: bold;
+}
 
-/*BACKGROUND ROXO*/
-footer{
-    background-color: blueviolet;
+.ofertas-imagens {
     width: 100%;
    
-}
-
-/*TITULO*/
-.contato{
     display: flex;
-    width: 80%;
     flex-direction: column;
-    justify-content: flex-start;
-}
-.contato h3{
-    font-size: 24px;
-    color: #ffffff;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-}
-/*ICONES*/
-.contato img{
-    width: 20px;
-    padding: 0px 8px;
-}
-/*FONTES*/
-.contato  li{
-    padding: 8px 0px;
-    font-size: 17px;
-    font-family:'Roboto', sans-serif ;
-    color: #ffffff;
-    font-weight: 100;
-    list-style: none;
-}
-.contato ul{
-    margin-top: -10px;
-    margin-left: -40px;
+    justify-content: space-between;
 }
 
-/*TITULO*/
-.redes-sociais h3{
-    font-size: 24px;
-    color: #ffffff;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+.oferta-imagem-destaque {
+    position: relative;
+    width: 92%;
+    height: 30vh;
 }
-/*ICONES*/
-.redes-sociais img{
-    width: 20px;
-    padding: 0px 8px;
-}
-/*FONTES*/
-.redes-sociais  li{
-    padding: 8px 0px;
-    font-size: 17px;
-    font-family:'Roboto', sans-serif ;
-    color: #ffffff;
-    font-weight: 100;
-    list-style: none;
-}
-.redes-sociais{
+
+.oferta-quatro-imagens {
+    width: 100%;
+    height: 100%;
     display: flex;
-    width: 23%;
+    
     flex-direction: column;
-    justify-content: flex-end;
-}
-.redes-sociais ul{
-    margin-top: -10px;
-    margin-left: -40px; 
+    justify-content: space-between;
 }
 
+.oferta-quatro-imagens figure {
+    position: relative;
+    width: 92%;
+    height: 30vh;
+    
+}
+
+.oferta-imagem-destaque img, .oferta-quatro-imagens img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.oferta-imagem-destaque figcaption, .oferta-quatro-imagens figcaption {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width: 100%;
+    background: rgb(0 0 0 / 50%);
+    font-size: 17px;
+    color: #fff;
+
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+.natureza-duas-imagens {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.natureza-imagem {
+    width: 92%;
+    height: 100%;
+}
+
+.natureza-imagem img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.natureza-imagem div {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.natureza-imagem h3 {
+    font-size: 16px;
+}
+
+.natureza-imagem p {
+    color: grey;
+    font-size: 14px;
+    margin: 15px 0 0 0px;
+}
+
+footer {
+    width: 100%;
+    background: #5d15d1;
+    margin: 32px 0 0 0;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.rodape-conteudo {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 2px;
+    
+}
+
+.rodape-conteudo h2 {
+    color: #fff;
+    margin: 0 0 15px 0;
+    font-size: 18px;
+}
+
+.rodape-conteudo div {
+    display: flex;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.rodape-conteudo img {
+    width: 18px;
+}
+
+.rodape-conteudo span {
+    color: #fff;
+    font-size: 12px;
+    margin: 0 0 0 4px;
+}
