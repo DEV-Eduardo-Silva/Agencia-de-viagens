@@ -15,9 +15,188 @@
         
     }
     .orcamento-descricao {
-        font-size: 18px;
-        color: #fff;
+        font-size: 20px;
+    }
+    .orcamento-area-formulario {
+        width: 100%;
+        background: #fff;
+    }
+    .formulario label {
+        font-size: 19px;
+    }
+    
+    
+    .formulario input, .formulario select {
+        width: 100%;
+        height: 35px;
+
+    }
+    .radio{
+        width: 30%;
+    }
+   
+    .radio input {
+        width: 19px;
+        margin: 5px;
+    }
+    .formulario button {
+        width: 170px;
+        height: 34px;
+        font-size: 17px;
+    }
+    
+    
+    .ofertas-titulo, .natureza-titulo {
+        font-size: 22px;
+    }
+    .ofertas-descricao, .natureza-descricao {
+        font-size: 19px;
         
-        margin: 0 0 0 5px;
+    }
+    .oferta-imagem-destaque {
+        height: 35vh;
+    }
+
+    .oferta-quatro-imagens figure {
+        height: 35vh;
+        
+    }
+    
+    .oferta-imagem-destaque figcaption, .oferta-quatro-imagens figcaption {
+        font-size: 19px;
+   
+    }
+    .natureza-imagem h3 {
+        font-size: 20px;
+    }
+    .natureza-imagem p {
+        font-size: 19px;
+        
+    }
+    .rodape-conteudo h2 {
+        font-size: 22px;
+    }
+    
+    
+    
+    .rodape-conteudo img {
+        width: 20px;
+    }
+    
+    .rodape-conteudo span {
+        color: #fff;
+        font-size: 17px;
+        margin: 0 0 0 10px;
+    }
+}
+
+/*notebook*/
+
+@media screen and (min-width:1104px) and (max-width: 1728px){
+   
+    .formulario label {
+        font-size: 20px;
+    }
+    
+    
+    .formulario input, .formulario select {
+        width: 100%;
+        height: 32px;
+
+    }
+    .radio{
+        width: 22%;
+    }
+   
+    .radio input {
+        width: 19px;
+        margin: 5px;
+    }
+    .formulario button {
+        width: 180px;
+        height: 39px;
+        font-size: 18px;
+    }
+    
+    
+    .ofertas-titulo, .natureza-titulo {
+        font-size: 23px;
+    }
+    .ofertas-descricao, .natureza-descricao {
+        font-size: 19px;
+        
+    }
+    .ofertas-imagens {
+        width: 100%;
+        height: 375px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    
+    .oferta-imagem-destaque {
+        position: relative;
+        width: 50%;
+        height: 100%;
+    }
+    
+    .oferta-quatro-imagens {
+        width:50%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    
+    .oferta-quatro-imagens figure {
+        position: relative;
+        width: 50%;
+        height: 50%;
+        margin: 0 6px;
+    }
+    .natureza-imagem h3 {
+        font-size: 21px;
+    }
+    .natureza-imagem p {
+        font-size: 19px;
+        
+    }
+    .natureza-duas-imagens {
+        width: 100%;
+        height: auto;
+        display: flex;
+        gap: 10px;
+        margin: 0 6px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .natureza-imagem {
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    
+    .natureza-imagem div {
+        width: 100%;
+        padding: 22px;
+       
+    }
+    .rodape-conteudo h2 {
+        font-size: 23px;
+    }
+    
+    
+    
+    .rodape-conteudo img {
+        width: 20px;
+    }
+    
+    .rodape-conteudo span {
+        color: #fff;
+        font-size: 18px;
+        margin: 0 0 0 10px;
     }
 }

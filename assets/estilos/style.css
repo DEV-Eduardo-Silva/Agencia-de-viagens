@@ -130,7 +130,7 @@ header {
 }
 
 .formulario-campo-duplo div {
-    width: calc(50% - 10px);
+    width: 100%;
 }
 .radio{
     width: 40%;
@@ -153,7 +153,7 @@ header {
 
 .radio input {
     width: 15px;
-    margin-left: 5px;
+    margin-left: -5px;
 }
 
 .radio label {
@@ -244,7 +244,6 @@ button:hover{
     position: absolute;
     left: 0;
     bottom: 0;
-
     width: 100%;
     background: rgb(0 0 0 / 50%);
     font-size: 17px;
