@@ -92,12 +92,12 @@
 
 /*notebook*/
 
-@media screen and (min-width:1104px) and (max-width: 1728px){
+@media screen and (min-width:1104px) and (max-width: 1920px){
    
     .formulario label {
         font-size: 20px;
     }
-    
+   
     
     .formulario input, .formulario select {
         width: 100%;
